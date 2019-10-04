@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  page
+    content 
+      top 
+        each val in icons
+          i !{val}
+      container
+        #first.block
+            p Je suis en reconversion professionnelle pour devenir développeur iOS
+            a.button(href='#formation') Formation
+        #formation.block
+            p Je cherche une entreprise en alternance afin d'effectuer ma formation auprès du 
+              a(href='https://bordeaux.cesi.fr/ecoles-formations/') CESI à Bordeaux
+            a.button(href='#motivation') Motivation
+        #motivation.block
+            p Très motivé, tenace et curieux, j'ai hâte de rejoindre une équipe talentueuse
+            a.button(href='#first') Reconversion
+  footer
+    a(href="/resources") Resources

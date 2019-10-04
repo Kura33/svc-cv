@@ -1,0 +1,9 @@
+extends layout
+
+block content   
+    page.resources
+        h2 Icons used
+        each icon in icons 
+            p.small= icon
+    footer
+        a(href="/") Index
