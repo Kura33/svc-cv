@@ -79,7 +79,6 @@ container {
 }
 
 a.button {
-  width: 47vh;
   border-radius: 5vh;
   height: 8vh;
   background: linear-gradient(20deg, #ac64e6c7, #9198e5);
